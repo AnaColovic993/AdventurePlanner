@@ -1,0 +1,36 @@
+﻿
+
+@{
+    ViewData["Title"] = "Start";
+}
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel=" stylesheet" href="~/css/StartStyle.css" />
+</head>
+<body>
+    <form class="form_Choice">
+        <div class="list">
+            <div class="question row ">
+                <div class="col-md-offset-2 col-md-8">
+                    <h2><br />Would you like an adventure now, <br />or shall we have our tea first?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <input class="col-md-offset-0 col-md-3" type="submit" value="Adventure is my lastname!" asp-action="Start" asp-controller="Home"/>
+                <input class="col-md-offset-5 col-md-3 " type="submit" value="Green tea, no suggar!" asp-action="Tea" asp-controller="Home" />
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿body {
+    background-image: url("../images/beige.jpg");
+}
+
+div .tea-party {
+    outline: solid;
+    outline: outset;
+    outline-color: darkgoldenrod;
+    position: center;
+    width: 800px;
+    height: 500px;
+}
+
+.image-tea {
+    width: 800px;
+    height: 500px;
+    position: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 0,0,20px;
+    font-weight: bold;
+    color: saddlebrown;
+    color-interpolation: linearRGB;
+    font-family: fantasy;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+input[type=submit] {
+    border: none;
+    height: 50px;
+    width: 380px;
+    position: center;
+    outline: none;
+    color: antiquewhite;
+    font-size: 35px;
+    font-family: fantasy;
+    background-color: sienna;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+    input[type=submit]:hover {
+        background-color: tomato;
+    }

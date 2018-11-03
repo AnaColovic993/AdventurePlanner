@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Tea";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts{
+    <link href="~/css/TeaStyle.css" rel="stylesheet" asp-file-version="true" />
+}
+<form method="get" asp-controller="Home" asp-action="Index">
+    <h2>Welcome to the boring tea party</h2>
+    <div class="tea-party col-md-offset-2">
+        <img src="~/images/tea.jpg" class="image-tea" />
+    </div>
+    <div class="col-md-offset-4">
+        <input type="submit" class="btn-regret" value="I regret it" />
+    </div>
+</form>
